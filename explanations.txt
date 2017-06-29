@@ -1,0 +1,41 @@
+Solution 1 :
+
+I have implemented the approach with quick sort to check if the string passed is a palindrome which results in the following :
+
+Time Complexity : O(n log n)
+Space Complexity : O(n log n)
+
+
+Solution 2:
+
+2 loops are implemented to check for each set of palindrome possible. Hence the following complexities.
+
+
+Time Complexity : O(n2)----"Onsquare"
+Space Complexity : O(n2)----"Onsquare"
+
+Solution 3:
+
+I have selected Kruskals algorith over Prims algoritm, as it specifies a directed graph. Also, it is comparatively simpler.
+
+Runtime for Kruskal algorithm is O(E log E) and not O(E log V).
+
+As, the edges have to be sorted first and it takes O(E log E) where it dominates the runtime for verifying whether the edge in consideration is a safe edge or not which would take O( E log V).
+
+Source : stackoverflow.com
+
+Solution 4:
+
+The algorith implements 2 while loops to check for node parent within the tree matrix and has the following complexities.
+
+Space complexity: O(n)
+
+Time complexity : O(nlog n)	
+
+Solution 5:
+
+The algorith uses a simple loop to return data at the specified position and hence has the following complexities:
+
+Space complexity: O(n)
+
+Time complexity : O(log n)	
