@@ -288,7 +288,12 @@ def main():
     # Output :6
     print question5(C, 2)
     # Output :1
-
+    
+    # que 6: How can you randomize the items of a list in place in Python?
+    from random import shuffle
+    x = ['Keep', 'The', 'Blue', 'Flag', 'Flying', 'High']
+        shuffle(x)
+        print(x)
 
 if __name__ == '__main__':
     main()
